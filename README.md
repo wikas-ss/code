@@ -33,14 +33,6 @@ def evaluate_game_pipeline(game_id):
         
         # Game needs Windows but tolerates/allows virtualization pipelines
         return "LAUNCH_KVM_VFIO", "Advanced Route: Game requires a native Windows environment but tolerates hypervisors. Triggering KVM hardware bindings..."
-```python
-import sys
-
-# Aquí va todo tu código...
-
-if __name__ == "__main__":
-    # Test example
-```
 if __name__ == "__main__":
     # Test example
     test_game = "valorant"  # Change to 'cyberpunk_2077' or 'destiny_2' to test routes
