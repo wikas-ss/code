@@ -1,4 +1,4 @@
-# code
+# python
 import sys
 
 # Simulated local database for games compatibility lookup
